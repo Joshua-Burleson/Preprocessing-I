@@ -1,1 +1,288 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 67.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .page-style-wrap {
+  margin-top: 12%;
+  width: 90%;
+  border: 1.5px black solid;
+}
+body header {
+  margin-top: 3%;
+  margin-right: 5.5%;
+}
+body header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+body header ul li {
+  font-size: 1.5rem;
+  margin-right: 5%;
+}
+body header ul li a {
+  color: black;
+  text-decoration: none;
+}
+body header ul li a :visited {
+  color: black;
+  text-decoration: none;
+}
+body header ul li :hover {
+  color: red;
+}
+body .top {
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2% 0;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+}
+body .top img {
+  width: 12%;
+  height: 6%;
+  margin-left: 5%;
+}
+body .top .top-title {
+  text-align: center;
+  align-self: center;
+}
+body .top .top-title h1 {
+  font-size: 5.5rem;
+  text-decoration: underline;
+}
+body .top .top-title h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 2.5%;
+}
+body .top .top-title p {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: 2.5%;
+}
+body .top .top-title button {
+  margin-top: 3%;
+  width: 35%;
+  height: 10%;
+  border-radius: 6%;
+  background-color: white;
+  font-size: 1.5rem;
+}
+body .mini-line-top {
+  margin: 1% 10%;
+  border-bottom: 1px black solid;
+}
+body .middle-section {
+  border: 0.8px red dashed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4% 5% 1%;
+  padding: 3%;
+}
+body .middle-section article {
+  width: 40%;
+  margin-left: 7%;
+  align-self: flex-start;
+}
+body .middle-section article h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+body .middle-section article h3 {
+  font-size: 1.5rem;
+}
+body .middle-section .technologies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 2% 2%;
+  align-items: center;
+  background-color: lightgray;
+}
+body .middle-section .technologies h3 {
+  font-size: 2.5rem;
+}
+body .middle-section .technologies ul li {
+  margin: 20% 0%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+body .work-history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .work-history h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5%;
+}
+body .work-history table {
+  width: 90%;
+  background-color: white;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+body .work-history th {
+  font-size: 2rem;
+  border: 1px grey solid;
+  padding: 0.6%;
+}
+body .work-history td {
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px grey solid;
+  padding: 0.5%;
+}
+body footer h4 {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding: 1.5% 0;
+}
